@@ -1,5 +1,6 @@
 ---
 title: 3 Practical AI Use Cases in IT Operations
+permalink: /en/posts/three-ai-use-cases/
 date: 2026-08-23 20:45:00 +0800
 categories: [AI, Operations]
 tags: [AI, AIOps, Automation]

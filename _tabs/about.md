@@ -1,6 +1,7 @@
 ---
 icon: fas fa-info-circle
 order: 4
+permalink: /about/
 ---
 
 # 關於這個站
@@ -29,3 +30,7 @@ order: 4
 
 - GitHub: [@sonytalk-W](https://github.com/sonytalk-W)
 - Email: sonytalk@gmail.com
+
+---
+
+📖 [Read this page in English](/ai-ops/en/about/)
