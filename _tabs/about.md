@@ -1,6 +1,7 @@
 ---
 icon: fas fa-info-circle
 order: 4
+slug: about
 ---
 
 # 關於這個站

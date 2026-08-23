@@ -1,5 +1,6 @@
 ---
 title: AI 在 IT 運維的 3 個實戰場景
+slug: three-ai-use-cases
 date: 2026-08-23 20:45:00 +0800
 categories: [AI, 運維]
 tags: [AI, AIOps, 自動化]
