@@ -29,7 +29,3 @@ order: 4
 
 - GitHub: [@sonytalk-W](https://github.com/sonytalk-W)
 - Email: sonytalk@gmail.com
-
----
-
-📖 [Read this page in English](/ai-ops/en/about/)

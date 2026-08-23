@@ -29,7 +29,3 @@ Two reasons:
 
 - GitHub: [@sonytalk-W](https://github.com/sonytalk-W)
 - Email: sonytalk@gmail.com
-
----
-
-📖 [以中文閱讀此頁](/ai-ops/about/)
