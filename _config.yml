@@ -14,6 +14,13 @@ timezone: Asia/Taipei
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
+# jekyll-polyglot settings › https://github.com/untra/polyglot
+# Default language (first in list) does NOT have /lang/ prefix in URL.
+languages: ["zh-TW", "en"]
+default_lang: "zh-TW"
+exclude_from_localization: ["assets", "javascripts", "stylesheets"]
+parallel_localization: false
+
 title: AI 運維 # the main title
 
 tagline: AI for IT Operations · 想法、筆記、踩雷紀錄 # it will display as the subtitle
