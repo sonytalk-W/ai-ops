@@ -68,3 +68,7 @@ IT Infra 的工作範圍很大，管理的東西很多，從硬體、作業系�
 對 Infra 工作來說，這代表很多以前「知道該做，但太麻煩所以沒做到位」的事情，現在有機會重新做一遍。
 
 自動化日誌分析就是其中一個很好的例子。
+
+---
+
+English version: [Automated Log Analysis: Using AI to Revisit What IT Infra Never Quite Finished](/ai-ops/posts/automated-log-analysis-en/)
