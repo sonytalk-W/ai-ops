@@ -28,7 +28,7 @@ timezone: Asia/Taipei
 languages: ["zh-TW", "en"]
 default_lang: "zh-TW"
 exclude_from_localization: ["assets", "javascripts", "stylesheets"]
-parallel_localization: false
+parallel_localization: true
 
 title: AI 運維 # the main title
 
