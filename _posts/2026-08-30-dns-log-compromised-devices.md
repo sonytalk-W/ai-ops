@@ -33,15 +33,7 @@ DNS 日誌的價值在於，它能記錄每一台內部設備查詢過哪些網�
 
 ## 基本處理流程
 
-```mermaid
-flowchart TD
-    A[收集 DNS 查詢日誌] --> B[依設備、時間、網域整理]
-    B --> C[查詢網域去重]
-    C --> D[排除白名單]
-    D --> E[比對黑名單與可疑特徵]
-    E --> F[回推查詢來源設備]
-    F --> G[端點調查與處置]
-```
+![DNS 日誌分析處理流程圖]({{ '/assets/img/posts/dns-log-analysis-flow.svg' | relative_url }})
 
 實務上可以先採用以下流程：
 
