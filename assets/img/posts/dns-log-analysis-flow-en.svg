@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
-  <title id="title">DNS 日誌分析處理流程圖</title>
-  <desc id="desc">收集 DNS 查詢日誌，整理、去重、排除白名單、比對黑名單與可疑特徵，最後回推查詢來源設備。</desc>
+  <title id="title">DNS log analysis processing flow</title>
+  <desc id="desc">Collect DNS query logs, organize records, deduplicate domains, exclude whitelisted domains, match blacklists and suspicious characteristics, then trace the source device.</desc>
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
       <path d="M0,0 L10,4 L0,8 Z" fill="#475569"/>
@@ -11,10 +11,9 @@
       .input rect { fill: #eef6ff; stroke: #2563eb; }
       .filter rect { fill: #f0fdf4; stroke: #16a34a; }
       .risk rect { fill: #fff7ed; stroke: #ea580c; }
-      .action rect { fill: #fef2f2; stroke: #dc2626; }
       .arrow { stroke: #475569; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
       text {
-        font-family: "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 17px;
         font-weight: 600;
         text-anchor: middle;
@@ -34,36 +33,37 @@
 
   <g class="node input" transform="translate(80 65)">
     <rect width="180" height="80"/>
-    <text x="90" y="32">收集 DNS</text>
-    <text x="90" y="54">查詢日誌</text>
+    <text x="90" y="32">Collect DNS</text>
+    <text x="90" y="54">query logs</text>
   </g>
 
   <g class="node" transform="translate(335 65)">
     <rect width="185" height="80"/>
-    <text x="92.5" y="30">依設備、時間</text>
-    <text x="92.5" y="54">網域整理</text>
+    <text x="92.5" y="30">Organize by device,</text>
+    <text x="92.5" y="54">time, and domain</text>
   </g>
 
   <g class="node filter" transform="translate(595 65)">
     <rect width="190" height="80"/>
-    <text x="95" y="40">查詢網域去重</text>
+    <text x="95" y="30">Deduplicate</text>
+    <text x="95" y="54">queried domains</text>
   </g>
 
   <g class="node filter" transform="translate(595 220)">
     <rect width="190" height="80"/>
-    <text x="95" y="40">排除白名單</text>
+    <text x="95" y="30">Exclude</text>
+    <text x="95" y="54">whitelist</text>
   </g>
 
   <g class="node risk" transform="translate(335 220)">
     <rect width="185" height="80"/>
-    <text x="92.5" y="30">比對黑名單</text>
-    <text x="92.5" y="54">與可疑特徵</text>
+    <text x="92.5" y="30">Match blacklists</text>
+    <text x="92.5" y="54">and suspicious signs</text>
   </g>
 
   <g class="node risk" transform="translate(80 220)">
     <rect width="180" height="80"/>
-    <text x="90" y="30">回推查詢</text>
-    <text x="90" y="54">來源設備</text>
+    <text x="90" y="30">Trace source</text>
+    <text x="90" y="54">device</text>
   </g>
-
 </svg>

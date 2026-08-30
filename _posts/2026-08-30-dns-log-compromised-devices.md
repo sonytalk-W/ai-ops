@@ -29,11 +29,10 @@ DNS 日誌的價值在於，它能記錄每一台內部設備查詢過哪些網�
 
 1. 找出可疑或惡意網域
 2. 回查哪些內部設備曾經查詢過
-3. 對來源設備進行端點調查
 
 ## 基本處理流程
 
-<img src="https://sonytalk-w.github.io/ai-ops/assets/img/posts/dns-log-analysis-flow.png" alt="DNS 日誌分析處理流程圖" width="1100" height="520">
+<img src="https://sonytalk-w.github.io/ai-ops/assets/img/posts/dns-log-analysis-flow.png" alt="DNS 日誌分析處理流程圖" width="1100" height="360">
 
 ## 先降低資料量
 

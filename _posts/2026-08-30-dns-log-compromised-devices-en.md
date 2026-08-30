@@ -29,11 +29,10 @@ The simplified analysis goal is:
 
 1. Identify suspicious or malicious domains
 2. Look up which internal devices queried those domains
-3. Investigate the source endpoints
 
 ## Basic Processing Flow
 
-<img src="https://sonytalk-w.github.io/ai-ops/assets/img/posts/dns-log-analysis-flow.png" alt="DNS log analysis processing flow" width="1100" height="520">
+<img src="https://sonytalk-w.github.io/ai-ops/assets/img/posts/dns-log-analysis-flow-en.png" alt="DNS log analysis processing flow" width="1100" height="360">
 
 ## Reduce the Data Volume First
 
