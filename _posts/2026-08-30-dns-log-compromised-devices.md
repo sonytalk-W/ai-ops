@@ -33,7 +33,7 @@ DNS 日誌的價值在於，它能記錄每一台內部設備查詢過哪些網�
 
 ## 基本處理流程
 
-![DNS 日誌分析處理流程圖](/ai-ops/assets/img/posts/dns-log-analysis-flow.svg)
+![DNS 日誌分析處理流程圖](https://sonytalk-w.github.io/ai-ops/assets/img/posts/dns-log-analysis-flow.svg)
 
 實務上可以先採用以下流程：
 
