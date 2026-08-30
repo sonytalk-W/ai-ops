@@ -72,3 +72,7 @@ DNS 日誌分析的核心順序可以整理為：
 3. 最後比對黑名單與可疑特徵
 
 只要長期執行這個流程，DNS 日誌就能從大量低價值紀錄，轉變成用來發現內部異常設備的有效線索。
+
+---
+
+English version: [DNS Log Analysis: Identifying Compromised Devices](/ai-ops/posts/dns-log-compromised-devices-en/)
